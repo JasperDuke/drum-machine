@@ -43,7 +43,7 @@ function App() {
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [isPowerOn]);
+  }, [isPowerOn, volume]);
 
   return (
     <div id="drum-machine" className="drum-machine">
