@@ -87,6 +87,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="scroll-box">
+        <span className="name">Jasper Duke</span>
+      </div>
     </div>
   );
 }
